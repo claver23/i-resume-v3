@@ -11,10 +11,15 @@
   --qwik-light-blue: #18b6f6;
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
+
+
+  --i-resume-dark-el: #50504e;
+  --i-resume-dark-bg: #6c6c69;
+  --i-resume-clear-bg: #ffffff;
 }
 
 body {
-  background: linear-gradient(90deg, rgba(24, 182, 246, 0.3) 0%, rgba(172, 127, 244, 0.3) 100%);
+  background: linear-gradient(90deg, var(--i-resume-dark-bg) 0%, var(--i-resume-dark-bg) 100%);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 200;
   padding: 10px 0px;
@@ -114,7 +119,7 @@ ul {
   width: 90vw;
   max-width: 1200px;
   margin: 0 auto;
-  background: linear-gradient(90deg, rgba(24, 182, 246, 0.6) 0%, rgba(172, 127, 244, 0.6) 100%);
+  background: linear-gradient(90deg, var(--i-resume-dark-el) 0%, var(--i-resume-dark-el) 100%);
   overflow: hidden;
   border-radius: 6px;
 }
